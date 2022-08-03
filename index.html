@@ -39,8 +39,8 @@
         <div class="col-4" style="background-color:rgb(177, 158, 158) ;">
             <div class="row">
                 <div class="col-2" style="background-color:white ;"></div>
-                <div class="col-2"><button type="button" class="btn btn-light mt-2 mb-2">(</button></div>
-                <div class="col-2"><button type="button" class="btn btn-light mt-2 mb-2">)</button></div>
+                <div class="col-2"><button id="pr" onclick="display('()')" type="button" class="btn btn-light mt-2 mb-2">()</button></div>
+                <div class="col-2"><button id="q" onclick="clearAll()"type="button" class="btn btn-light mt-2 mb-2">AC</button></div>
                 <div class="col-2"><button id="mod" onclick="display('%')" type="button" class="btn btn-light mt-2 mb-2">%</button></div>
                 <div class="col-2"><button id="del" onclick="remove()" type="button" class="btn btn-light mt-2 mb-2">del</button></div>
                 <div class="col-2" style="background-color:white ;"></div>
@@ -103,10 +103,10 @@
         <div class="col-4" style="background-color:rgb(177, 158, 158) ;">
             <div class="row">
                 <div class="col-2" style="background-color:white ;"></div>
+                <div class="col-2"><button id="z" onclick="display('.')" type="button" class="btn btn-light mt-2 mb-2">.</button></div>
                 <div class="col-2"><button id="m" onclick="display('0')" type="button" class="btn btn-light mt-2 mb-2">0</button></div>
-                <div class="col-2"><button id="q" onclick="clearAll()"type="button" class="btn btn-light mt-2 mb-2">AC</button></div>
-                <div class="col-2"><button id="o" onclick="output()" type="button" class="btn btn-light mt-2 mb-2">=</button></div>
                 <div class="col-2"><button id="p" onclick="display('+')" type="button" class="btn btn-light mt-2 mb-2">+</button></div>
+                <div class="col-2"><button id="o" onclick="output()" type="button" class="btn btn-light mt-2 mb-2">=</button></div>
                 <div class="col-2" style="background-color:white"></div>
             </div>
 
